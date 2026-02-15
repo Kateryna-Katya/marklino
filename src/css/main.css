@@ -389,3 +389,33 @@ gap: 26px;
     width: 190px;
    }
 }
+/* THE CHALLENGE */
+.challenge-swiper .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+}
+.challenge-container{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.challenge-img{
+    height: 100px;
+}
+@media only screen and (min-width: 1440px) {
+.challenge-container {
+        padding-left: 140px;
+        padding-right: 140px;
+    }
+   .challenge-swiper .swiper-wrapper {
+       width: 1156px !important;
+       display: flex;
+       flex-direction: row;
+       gap: 42px;
+   }
+
+   .challenge-swiper .swiper-slide {
+       width: 200px;
+   }
+}

@@ -43,7 +43,7 @@ function initChallenge() {
           disableOnInteraction: false,
         },
         slidesPerView: 2,
-        spaceBetween: 20,
+        spaceBetween: 10,
       });
     }
   } else {
