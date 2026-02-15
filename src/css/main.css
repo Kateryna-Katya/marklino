@@ -419,3 +419,14 @@ gap: 26px;
        width: 200px;
    }
 }
+/* GALLERY */
+.arrow-wrapper{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.gallery-arrow{
+    border: none;
+    background-color: inherit;
+}
