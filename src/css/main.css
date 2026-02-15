@@ -36,7 +36,7 @@
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
 }
 .home-text{
     width: 342px;
@@ -56,4 +56,239 @@
 .home-title{
 line-height: 1;    
 }
+}
+/* DISCLAIMER */
+.disclaimer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    line-height: 1.22222;
+        text-transform: uppercase;
+    font-weight: 700;
+}
+.disclaimer-title{
+    font-family: "Berlin Sans FB Demi", sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 1.33333;
+        text-transform: uppercase;
+        text-align: center;
+        background: linear-gradient(90deg, #cc5a29 0%, #ffc117 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        filter: none;
+}
+@media only screen and (min-width: 1440px) {
+.disclaimer-container{
+    align-items: start;
+}
+.disclaimer-title{
+    font-size: 40px;
+        line-height: 1;
+}
+.disclaimer-text{
+    text-align: left;
+    font-size: 24px;
+        line-height: 1.25;
+}
+}
+/* Demo */
+.demo-section{
+    background-image: url("/img/demo/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+
+}
+.demo-title{
+    font-size: 30px;
+    
+}
+.demo-subtitle{
+    margin-top: 16px;
+    font-family: "Berlin Sans FB Demi", sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 1.28571;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        text-align: center;
+        background: linear-gradient(90deg, #cc5a29 0%, #f6af1a 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+filter: drop-shadow(0 0 12px #000);
+}
+.demo-container{
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 100px;
+}
+.demo-wrapper {
+    position: relative;
+width: 373px;
+    margin: 24px auto 0;
+height: 690px;
+}
+
+.demo-img {
+width: 373px;
+    height: 690px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ===== КНОПКА ===== */
+
+.demo-btn {
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+    display: inline-block;
+    top: 80%;
+    left: 0%;
+
+    transform: translate(-50%, -50%);
+}
+
+@keyframes pulse-animation {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.02);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.demo-btn.pulse {
+    animation: pulse-animation 2s infinite;
+    transition: transform 0.3s ease;
+
+}
+
+
+/* ===== ФОН ===== */
+
+.demo-img {
+    width: 100%;
+    display: block;
+}
+
+/* ===== IFRAME ===== */
+
+.iframe-wrapper {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-51%);
+width: 373px;
+    height: 690px;
+
+    z-index: 5;
+
+    /* 🔥 ГОЛОВНЕ ВИПРАВЛЕННЯ */
+    pointer-events: none;
+}
+
+#gameIframe {
+width: 375px;
+    height: 690px;
+    border: none;
+    display: none;
+    background: #000;
+    border-radius: 40px;
+}
+
+/* АКТИВНИЙ СТАН */
+.iframe-wrapper.active {
+    pointer-events: auto;
+    z-index: 20;
+}
+
+#gameIframe.active {
+    display: block;
+}
+
+/* ===== КНОПКА ЗАКРИТТЯ ===== */
+
+#closeIframeBtn {
+    position: absolute;
+    top: 40px;
+    right: 10%;
+
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    display: none;
+
+    z-index: 9999;
+    /* 🔥 НАД iframe */
+    pointer-events: auto;
+}
+
+#closeIframeBtn.active {
+    display: block;
+}
+
+.close-img {
+    width: 24px;
+    height: 24px;
+
+}
+
+@media only screen and (min-width: 1440px) {
+.demo-section {
+        background-image: url("/img/demo/desk.png");
+
+    }
+    .demo-container {
+        padding: 84px 140px 137px;
+    }
+.demo-title{
+    font-size: 40px;
+}
+.demo-subtitle{
+    font-size: 40px;
+}
+    .demo-wrapper {
+        margin: 54px auto 0;
+width: 1160px;
+    height: 653px;
+    }
+
+    .demo-img {
+width: 1160px;
+    height: 653px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+        .iframe-wrapper {
+            position: absolute;
+            top: 0%;
+            left: 50%;
+            transform: translateX(-50%);
+width: 1160px;
+    height: 653px;
+        }
+    #gameIframe {
+width: 1160px;
+    height: 653px;
+    }
+.demo-btn {
+    left: 30%;
+
+    transform: translateX(-50%);
+}
+
 }

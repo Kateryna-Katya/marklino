@@ -7,17 +7,20 @@ body{
     text-align: center;
     color: #341800;
 }
-h2{
+h2 {
   font-family: "Berlin Sans FB Demi", sans-serif;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 1;
-    text-transform: uppercase;
-    text-align: center;
-    background: linear-gradient(90deg, #733600 0%, #f6af1a 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: center;
+
+  background: linear-gradient(90deg, #733600 0%, #f6af1a 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  filter: drop-shadow(0 0 12px #000);
 }
 @media only screen and (min-width: 1440px) {
   h2{

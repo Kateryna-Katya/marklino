@@ -34,3 +34,43 @@
         </div>
     </div>
 </section>
+<section class="disclaimer-section">
+    <div class="container disclaimer-container">
+        <h2 class="disclaimer-title">DISCLAIMER</h2>
+        <p class="disclaimer-text">marklino.site IS A PLATFORM FOR HAVING FUN. THE OUTCOME OF THIS GAME EXPERIENCE SHOULD NOT BE CONSIDERED A REFLECTION OF
+        REAL-LIFE RESULTS. GAME IS INTENDED FOR ADULT AUDIENCES OVER 18 YEARS OF AGE. ENJOY THE EXPERIENCE.</p>
+    </div>
+</section>
+<section class="demo-section" id="demo">
+    <div class="container demo-container">
+        <h2 class="demo-title">Play Book of Keno</h2>
+        <h3 class="demo-subtitle">Make a choice. See what the book reveals.</h3>
+        <div class="demo-wrapper" id="game">
+            <picture>
+                <source srcset="
+                /img/demo/demo-desk.png 1x,
+                /img/demo/demo-desk@2x.png 2x
+                " media="(min-width: 1440px)" />
+                <source srcset="
+                /img/demo/demo-mob.png 1x,
+                /img/demo/demo-mob@2x.png 2x
+                " media="(max-width: 1439px)" />
+                <img class="demo-img" src="/img/demo/demo-mob.png" alt="Book of the priestess" loading="lazy" />
+            </picture>
+
+
+            <div class="iframe-wrapper">
+                <iframe id="gameIframe" name="gameIframe"></iframe>
+
+                <button id="closeIframeBtn" class="hidden-close-btn" aria-label="Close">
+                    <img class="close-img" src="/img/demo/close.png" alt="Close">
+                </button>
+            </div>
+            <a class="demo-btn pulse" href="#" data-game-url="https://demo.evoplay.games/demo/instant/html5/evoplay/bookofkeno"
+                target="gameIframe">
+                <img  src="/img/hero/button-mob.png" alt="Open the Book" loading="lazy">
+            </a>
+        </div>
+
+    </div>
+</section>
