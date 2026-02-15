@@ -430,3 +430,30 @@ gap: 26px;
     border: none;
     background-color: inherit;
 }
+/* FEATURES */
+.features-container{
+    padding-left: 1px;
+    padding-right: 1px;
+}
+.features-list{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+.features-item{
+    background: linear-gradient(90deg, #e57300 0%, #6d3902 100%);
+    border-radius: 30px;
+        padding: 29px;
+        width: 373px;
+        height: 76px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Jost", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.125;
+            text-align: center;
+            color: #fff;
+}
