@@ -2,55 +2,51 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/marklino/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+      <link rel="icon" type="image/png" href="/marklino/favicon.png" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+    <title>Book of Keno</title>
     <script type="module" crossorigin src="/marklino/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/marklino/assets/styles-X9THPhCB.css">
+    <link rel="stylesheet" crossorigin href="/marklino/assets/styles-DCdzinSh.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+    
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <section class="home-section" id="home">
+    <div class="container home-container">
+        <h1 class="visually-hidden">Book of Keno</h1>
+        <div class="home-wrapper">
+            <picture>
+                <source srcset="/marklino/assets/hero-desk-DGKbAGva.png 1x, /marklino/assets/hero-desk@2x-C2CwCCQt.png 2x" media="(min-width: 1440px)" />
+                <source srcset="/marklino/assets/hero-logo-Blq2QWky.png 1x, /marklino/assets/hero-logo@2x-CPufKewE.png 2x" media="(max-width: 1439px)" />
+                <img class="home-logo" src="/marklino/assets/hero-logo-Blq2QWky.png" alt="Book of Keno" loading="lazy" />
+            </picture>
+            <h2 class="home-title">Some choices are small.<br/>
+            Their outcome isn’t.</h2>
+            <p class="home-text">Book of Keno is built around a single, simple action — choosing one number from ten.<br/>Look, we got rid of all that
+            annoying stuff you don't need - it's literally just you, some numbers, and this weird ancient system that feels like
+            it's reading your mind.</p>
+            <a class="hero-link" href="#demo">
+            <picture>
+                <source srcset="/marklino/assets/button-desk-D5sG1fm7.png 1x, /marklino/assets/button-desk@2x-KgPDazYY.png 2x" media="(min-width: 1440px)" />
+                <source srcset="/marklino/assets/button-mob-D03K1beW.png 1x, /marklino/assets/button-mob@2x-BBjWHseK.png 2x" media="(max-width: 1439px)" />
+                <img class="button" src="/marklino/assets/button-mob-D03K1beW.png" alt="Open the Book" loading="lazy" />
+            </picture>
+            </a>
+        </div>
+    </div>
+</section>
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    
 
   </body>
 </html>
