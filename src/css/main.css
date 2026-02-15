@@ -1,0 +1,59 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.home-section {
+    background-image: url("/img/hero/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 629px;
+}
+.home-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 60px;
+    align-items: center;
+}
+.home-title{
+    margin-top: 18px;
+    font-family: "Berlin Sans FB Demi", sans-serif;
+        font-weight: 700;
+        line-height: 1.42857;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        text-align: center;
+        background: linear-gradient(90deg, #fff600 0%, #fff 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.home-text{
+    width: 342px;
+}
+@media only screen and (min-width: 1440px) {
+    .home-section {
+        background-image: url("/img/hero/desk.png");
+        height: 810px;
+    }
+    .home-wrapper{
+        margin-top: 40px;
+    }
+.home-text {
+    width: 342px;
+    width: 542px;
+}
+.home-title{
+line-height: 1;    
+}
+}

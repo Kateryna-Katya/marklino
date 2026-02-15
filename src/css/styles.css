@@ -13,3 +13,10 @@
 @import url('./header.css');
 @import url('./main.css');
 @import url('./footer.css');
+@font-face {
+  font-family: 'Berlin Sans FB Demi';
+  src: url('/assets/fonts/BRLNSDB.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
