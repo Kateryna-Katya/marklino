@@ -58,8 +58,8 @@ background: linear-gradient(180deg, #1a0707 0%, #733600 100%);
 
 .menu-item {
   text-align: left;
-  font-family: "Londrina Solid", sans-serif;
-  font-weight: 400;
+font-family: "Berlin Sans FB Demi", sans-serif;
+  font-weight: 700;
   font-size: 32px;
   color: #fff;
   transition: all 0.3s ease-in-out;
@@ -68,32 +68,19 @@ background: linear-gradient(180deg, #1a0707 0%, #733600 100%);
 .menu-item:hover,
 .menu-item:focus,
 .menu-item.active {
-  text-decoration: underline;
+text-decoration: underline;
   text-decoration-skip-ink: none;
-  color: #fff600;
+  color: #cc5a29;
 }
 
-.header-policy-list {
-  margin-top: 32px;
-  display: flex;
-  gap: 40px;
-  justify-content: center;
-  font-size: 12px;
-  text-decoration: underline;
-  text-decoration-skip-ink: none;
-  text-align: center;
-  color: #e6e6e9;
-}
 
 @media screen and (min-width: 1440px) {
   .header {
-    backdrop-filter: blur(4px);
-    background: rgba(9, 46, 159, 0.8);
     height: 82px;
   }
 
   .header-container {
-    padding: 3px 318px;
+    padding: 3px 318px 3px 305px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,10 +98,10 @@ background: linear-gradient(180deg, #1a0707 0%, #733600 100%);
   }
 
   .navigation-item {
-    font-family: "Londrina Solid", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    color: #fff;
+font-family: "Berlin Sans FB Demi", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
     transition: all 0.3s ease-in-out;
   }
 
@@ -122,9 +109,9 @@ background: linear-gradient(180deg, #1a0707 0%, #733600 100%);
   .navigation-item:hover,
   .navigation-item:focus,
   .navigation-item.active {
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-    color: #fff600;
+text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #cc5a29;
 
   }
 
