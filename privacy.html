@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/marklino/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <title>Book of Keno</title>
+  <script type="module" crossorigin src="/marklino/assets/vendor-CdjukAW4.js"></script>
+  <script type="module" crossorigin src="/marklino/assets/main-DA7o0pMo.js"></script>
+  <link rel="stylesheet" crossorigin href="/marklino/assets/vendor-BfN9iDYU.css">
+  <link rel="stylesheet" crossorigin href="/marklino/assets/privacy-BWY7fO8a.css">
+</head>
+  <body>
+    <header class="header" id="site-header">
+    <div class="header-container container">
+        <a class="header-link" href="./#home">
+            <picture>
+                <source srcset="/marklino/assets/header-desk-CyE-Fs5V.png 1x, /marklino/assets/header-desk@2x-D8cF-MD-.png 2x" media="(min-width: 1440px)" />
+                <source srcset="data:image/png;base64,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 1x, /marklino/assets/header-mob@2x-C1CoNXG-.png 2x" media="(max-width: 1439px)" />
+                <img class="header-logo" src="data:image/png;base64,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" alt="Book of the priestess" loading="lazy" />
+            </picture>
+        </a>
+        <button type="button" class="menu-button" aria-label="menu toggle">
+            <span class="icon">
+                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M5.5 33V29.3333H38.5V33H5.5ZM5.5 23.8333V20.1667H38.5V23.8333H5.5ZM5.5 14.6667V11H38.5V14.6667H5.5Z"
+                        fill="white" />
+                </svg>
+            </span>
+        </button>
+
+        <nav class="nav ">
+            <ul class="navigation-list">
+                <li class="navigation-item">
+                    <a class="links" href="./#home">Home</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#about">About the Book</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#how">How It Works</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#gallery">Gallery</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#demo">Play</a>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+</header>
+<!-- Mobile menu -->
+<div id="modalWindow" class="modal">
+    <ul class="menu-list">
+        <li class="menu-item"><a class="menu-list-item" href="./#home">Home</a></li>
+        <li class="menu-item"><a class="menu-list-item" href="./#about">About the Book</a></li>
+        <li class="menu-item"><a class="menu-list-item" href="./#how">How It Works</a></li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#gallery">Gallery</a>
+        </li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#demo">Play</a>
+        </li>
+    </ul>
+</div>
+
+<main class="background">
+  <div class="container privacy-container">
+    <h2 class="privacy-title">Privacy Policy</h2>
+    <p class="policy-text">Last Updated: 2026-01-21</p>
+    <p>This Privacy Policy applies to the marklino.site website (hereinafter referred to as "Website"). By
+      accessing or
+      using our services, you agree to the collection and use of information as described in this policy. </p>
+    <h3 class="policy-subtitle">1. Information We Collect</h3>
+    <p>The Website may collect the following types of data:</p>
+    <ul class="policy-list">
+      <li>Personal Information: Name, email address, and other details if voluntarily provided. </li>
+      <li>Technical Data: IP address, browser type, and device information for analytics purposes. </li>
+      <li>Cookies & Tracking: We use cookies to enhance user experience and track usage trends. </li>
+    </ul>
+    <h3 class="policy-subtitle">2. How We Use Your Information</h3>
+    <p>The data we collect may be used for:</p>
+    <ul class="policy-list">
+      <li>Providing and improving our services.</li>
+      <li>Enhancing website security and preventing fraud.</li>
+      <li>Analyzing trends and user behavior through analytics tools.</li>
+    </ul>
+    <h3 class="policy-subtitle">3. Cookies and Tracking Technologies</h3>
+    <p>We use cookies and similar technologies to personalize content, track website performance, and improve user
+      experience.
+      Users can manage or disable cookies through browser settings. </p>
+    <h3 class="policy-subtitle">4. Third-Party Services</h3>
+    <p>We may use third-party services such as Google Analytics to monitor traffic and improve services. These services
+      have
+      their own privacy policies, which can be reviewed on their respective websites. Below are the links to the Privacy
+      Policy of the third-party service providers used by the Application: </p>
+    <ul class="policy-list underline">
+      <li><a href="https://policies.google.com/privacy">Google Play Services </a></li>
+      <li><a href="https://firebase.google.com/support/privacy">Google Analytics for Firebase </a></li>
+      <li><a href="https://www.facebook.com/about/privacy/update/printable">Facebook </a></li>
+    </ul>
+    <h3 class="policy-subtitle">5. Data Security</h3>
+    <p>We implement security measures to protect collected information from unauthorized access or misuse. However, no
+      method
+      of transmission over the internet is 100% secure.</p>
+    <h3 class="policy-subtitle">6. Children’s Privacy</h3>
+    <p>Our Website is not intended for children under 13, and we do not knowingly collect personal data from them. If we
+      become
+      aware that a child has provided information, we will take steps to delete it. </p>
+    <h3 class="policy-subtitle">7. Changes to This Policy</h3>
+    <p>We may update this Privacy Policy periodically. Users will be notified of significant changes through the
+      Website.
+      Continued use of the Website after modifications implies acceptance of the updated policy. </p>
+    <h3 class="policy-subtitle">8. Your Rights under the General Data Protection Regulation (GDPR) </h3>
+    <p>If you are a resident of the European Union or the European Economic Area, you have the following rights
+      regarding your
+      personal data:</p>
+    <ul class="policy-list">
+      <li>Right of Access<br /> You have the right to request access to the personal data we hold about you.</li>
+      <li>Right to Rectification<br /> You have the right to request correction of inaccurate or incomplete personal
+        data.</li>
+      <li>Right to Erasure (“Right to Be Forgotten”)<br /> You can request the deletion of your personal data where
+        there is no legal
+        reason for us to retain it.</li>
+      <li>Right to Restrict Processing<br /> You may request that we restrict the processing of your personal data under
+        certain
+        conditions.</li>
+      <li>Right to Data Portability<br /> You can request to receive the personal data you provided to us in a
+        structured, commonly
+        used and machine-readable format, and to have it transmitted to another controller.</li>
+      <li>Right to Object<br /> You have the right to object to the processing of your personal data based on legitimate
+        interests or
+        for direct marketing purposes.</li>
+      <li>Right to Lodge a Complaint<br /> If you believe your rights have been violated, you have the right to file a
+        complaint with
+        your local data protection authority.</li>
+    </ul>
+    <h3 class="policy-subtitle">9. Contact Us</h3>
+    <p>If you have any questions or concerns about this Privacy Policy, please contact us at <a class="mail-link"
+        href="mailto:info@marklino.site">info@marklino.site.</a></p>
+
+  </div>
+</main>
+
+
+    <footer class="footer">
+    <div class="container footer-container">
+        <a class="footer-link" href="./#home">
+            <picture>
+                <source srcset="/marklino/assets/footer-desk-BBq8x7Jn.png 1x, /marklino/assets/footer-desk@2x-BoGLw_Dx.png 2x" media="(min-width: 1440px)" />
+                <source srcset="/marklino/assets/footer-mob-D9to048a.png 1x, /marklino/assets/footer-mob@2x-CnCplwzX.png 2x" media="(max-width: 1439px)" />
+                <img class="footer-logo" src="/marklino/assets/footer-mob-D9to048a.png" alt="Book of the priestess" loading="lazy" />
+            </picture>
+        </a>
+            <ul class="footer-navigation">
+                <li class="footer-link">
+                    <a class="footer-underline" href="terms.html">Terms & Conditions</a>
+                </li>
+                <li class="footer-link">
+                    <a class="footer-underline" href="privacy.html">Privacy Policy </a>
+                </li>
+                <li class="footer-link">
+                    <a class="footer-underline" href="cookies.html">Cookies Policy</a>
+                </li>
+            </ul>
+
+            <p class="footer-text">© 2026 — All rights reserved. marklino.site</p>
+    </div>
+</footer>
+<div id="cookie-popup" class="cookie-popup">
+    <div class="popup-wrapper">
+        <p class="cookie-class">We use cookies to improve your experience on our website. By<br /> browsing this
+            website, you agree to our use of cookies.</p>
+        <div class="cookie-buttons">
+            <button id="accept-cookies" class="btn-accept">ACCEPT COOKIES</button>
+            <button id="decline-cookies" class="btn-decline">DECLINE COOKIES</button>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
