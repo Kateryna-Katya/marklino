@@ -1,21 +1,39 @@
 .footer {
-  padding: 20px 0;
+backdrop-filter: blur(4px);
+  background: rgba(26, 7, 7, 0.8);
 }
-.footer-desc {
-  text-align: center;
+.footer-container{
+  padding: 15px 95px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
-.footer-link {
-  position: relative;
+.footer-navigation{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-family: "Berlin Sans FB Demi", sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      color: #fff;
 }
-.footer-link::before {
-  content: '';
-  position: absolute;
-  bottom: 6%;
-  left: 50%;
-  transform: translateX(-50%) skewX(-12deg);
-  z-index: -1;
-  width: 110%;
-  height: 24%;
-  background-color: #41d1ff;
-  transition: 200ms ease;
+.footer-text{
+  font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: #fff;
 }
+@media only screen and (min-width: 1440px) {
+  .footer-container{
+    padding: 18px 200px;
+    flex-direction: row;
+    justify-content: space-between;    
+  }
+  .footer-navigation{
+    flex-direction: row;
+    gap: 48px;
+  }
+}
+
