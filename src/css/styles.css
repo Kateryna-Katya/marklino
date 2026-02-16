@@ -13,6 +13,7 @@
 @import url('./header.css');
 @import url('./main.css');
 @import url('./footer.css');
+@import url('./cookie-popup.css');
 @font-face {
   font-family: 'Berlin Sans FB Demi';
   src: url('/assets/fonts/BRLNSDB.woff') format('woff');
